@@ -19,7 +19,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*🎼 SAHAS-MD SONG DOWNLOADER . .⚙️*
+        let desc = `*🎼 𝚁𝙰𝚅𝙸𝚈𝙰 𝚇𝙼𝙳 𝚂𝙾𝙽𝙶 𝙳𝙾𝚆𝙼𝙻𝙾𝙰𝙳𝙴𝚁 . .⚙️*
 
 🎼⚙️ TITLE - ${data.title}
 
@@ -92,7 +92,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         const data = search.videos[0];
         const url = data.url;
 
-        let desc = `*📽️ SAHAS-MD VIDEO DOWNLOADER . .⚙️*
+        let desc = `*📽️ 𝚁𝙰𝚅𝙸𝚈𝙰 𝚇𝙼𝙳 𝚅𝙸𝙳𝙴𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁 . .⚙️*
 
 📽️⚙️ TITLE - ${data.title}
 
@@ -109,7 +109,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 *1 Video With Normal Format*
 *2 Video With Document Format*
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴀᴠɪɴᴅᴜ ʟᴀᴋꜱʜɪᴛʜᴀ*`;
 
         const vv = await conn.sendMessage(from, { image: { url: data.thumbnail }, caption: desc }, { quoted: mek });
 
