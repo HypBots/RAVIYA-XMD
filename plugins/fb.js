@@ -20,14 +20,14 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         if (!q || !q.startsWith("https://")) return reply("Please provide a valid Facebook video URL!");
         const data = await fetchJson(`${baseUrl}/api/fdown?url=${q}`);
-        let desc = ` *SAHAS-MD FB DOWNLOADER...⚙️*
+        let desc = ` *𝚁𝙰𝚅𝙸𝚈𝙰 𝚇𝙼𝙳 𝙵𝙱 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝚁...⚙️*
 
 *Reply This Message With Option*
 
 *1 Download FB Video In HD*
 *2 Download FB Video In SD*
 
-> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ꜱᴀʜᴀꜱ ᴛᴇᴄʜ*`;
+> *©ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʀᴀᴠɪɴᴅᴜ ʟᴀᴋꜱʜɪᴛʜᴀ*`;
 
         const vv = await conn.sendMessage(from, { image: { url: "https://files.catbox.moe/de82e3.jpg"}, caption: desc }, { quoted: mek });
 
